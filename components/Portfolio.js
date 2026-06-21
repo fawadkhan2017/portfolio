@@ -59,7 +59,7 @@ function Portfolio() {
                             <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
                             <p className="text-[var(--text-muted)] max-w-xl">A glimpse into my latest work. I craft solutions that are not only visually appealing but also highly functional.</p>
                         </div>
-                        <a href="https://www.fiverr.com/codinglab707" target="_blank" rel="noopener noreferrer" className="btn-outline shrink-0">
+                        <a href="https://www.fiverr.com/users/codinglab707/portfolio" target="_blank" rel="noopener noreferrer" className="btn-outline shrink-0">
                             View All on Fiverr <span className="icon-external-link"></span>
                         </a>
                     </div>
