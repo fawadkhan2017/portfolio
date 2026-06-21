@@ -1,4 +1,3 @@
-// Important: DO NOT remove this `ErrorBoundary` component.
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -16,13 +15,13 @@ class ErrorBoundary extends React.Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-50">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold text-gray-900 mb-4">Something went wrong</h1>
-            <p className="text-gray-600 mb-4">We're sorry, but something unexpected happened.</p>
+        <div className="min-h-screen flex items-center justify-center bg-[var(--bg-dark)] text-white">
+          <div className="text-center p-8 bg-[var(--bg-card)] rounded-xl border border-gray-800">
+            <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
+            <p className="text-[var(--text-muted)] mb-6">We're sorry, but the application crashed.</p>
             <button
               onClick={() => window.location.reload()}
-              className="px-6 py-3 bg-gray-900 text-white rounded-md hover:bg-gray-800"
+              className="btn-primary"
             >
               Reload Page
             </button>
@@ -38,14 +37,13 @@ class ErrorBoundary extends React.Component {
 function App() {
   try {
     return (
-      <div className="min-h-screen flex flex-col w-full" data-name="app" data-file="app.js">
+      <div className="min-h-screen bg-[var(--bg-dark)] text-[var(--text-main)] font-sans" data-name="App" data-file="app.js">
         <Navbar />
-        <main className="flex-grow w-full">
+        <main>
             <Hero />
             <Services />
             <Portfolio />
-            <Testimonials />
-            <Contact />
+            <Reviews />
         </main>
         <Footer />
       </div>

@@ -1,22 +1,19 @@
-# Fiverr Portfolio Website
+# CodingLab707 Portfolio
 
 ## Overview
-A modern, responsive, single-page portfolio website designed for Fawad (@codinglab707), a Full Stack Laravel Developer on Fiverr. It highlights his Laravel/Livewire services, Figma to Tailwind conversions, past work, client testimonials, and provides an easy way for potential clients to get in contact or hire directly on his Fiverr gig pages.
+A modern, dark-themed portfolio website designed to showcase web development services, recent projects, and client testimonials. It integrates seamlessly with the user's Fiverr profile to drive client acquisition.
 
-## Architecture
-- **Framework**: React 18
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide Icons
-- **Structure**:
-  - Navbar: Fixed header with smooth scrolling navigation.
-  - Hero: High-impact introduction section.
-  - Services: Cards detailing offerings and pricing.
-  - Portfolio: Gallery of past projects.
-  - Testimonials: Social proof from previous clients.
-  - Contact: Form and quick call-to-action block.
-  - Footer: Minimalist footer with social links.
-  - Admin (`admin.html`): Secure dashboard with a simple login interface (passcode: "admin") to add or remove portfolio projects using Trickle Database.
+## Project Structure
+- `index.html`: Main HTML entry with Tailwind CSS configuration.
+- `app.js`: Main React application wrapping sections together.
+- `components/Navbar.js`: Responsive navigation.
+- `components/Hero.js`: Eye-catching introductory section with call-to-actions.
+- `components/Services.js`: Overview of skills and offerings.
+- `components/Portfolio.js`: Visual gallery of projects.
+- `components/Reviews.js`: Client testimonials highlighting quality.
+- `components/Footer.js`: Social links and contact info.
 
-## Maintenance Notes
-- Update `trickle/assets` when introducing new media files.
-- Keep `trickle/rules` updated with any newly identified coding or layout constraints.
+## Guidelines for Updates
+- When updating styles, rely on the CSS variables defined in `index.html` (e.g., `var(--primary)`).
+- Ensure any added external links or images utilize HTTPS and handle errors properly.
+- Keep the `README.md` up-to-date with any structural or major feature changes.
