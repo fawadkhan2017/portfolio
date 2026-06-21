@@ -1,0 +1,25 @@
+[
+  {
+    "name": "portfolio_project",
+    "fields": [
+      {
+        "name": "Title",
+        "type": "text",
+        "description": "Project title",
+        "options": null
+      },
+      {
+        "name": "Category",
+        "type": "text",
+        "description": "Project category",
+        "options": null
+      },
+      {
+        "name": "ImageUrl",
+        "type": "text",
+        "description": "Project image URL",
+        "options": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawad | Full Stack Laravel Developer | Fiverr</title>
+    <meta name="description" content="Hi, I'm Fawad — a Full Stack Laravel Developer with 5+ years of experience building modern, responsive, and scalable web applications.">
+    <meta name="keywords" content="freelance, portfolio, fiverr, web development, design, services">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #10b981; /* Fiverr Green */
+            --primary-hover: #059669;
+            --bg-light: #f9fafb;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white transition-colors duration-200;
+            background-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+        .btn-secondary {
+            @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200;
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-center mb-12;
+        }
+    }
+    </style>
+</head>
+<body class="antialiased selection:bg-[var(--primary-color)] selection:text-white">
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Services.js"></script>
+    <script type="text/babel" src="components/Portfolio.js"></script>
+    <script type="text/babel" src="components/Testimonials.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
