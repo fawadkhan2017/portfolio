@@ -25,7 +25,7 @@ function Navbar() {
                         <div className="w-8 h-8 rounded bg-[var(--primary)] flex items-center justify-center">
                             <span className="icon-code text-white text-xl"></span>
                         </div>
-                        CodingLab707
+                        CodingLab
                     </a>
 
                     {/* Desktop Menu */}
