@@ -10,7 +10,7 @@ function Footer() {
                                 <div className="w-8 h-8 rounded bg-[var(--primary)] flex items-center justify-center">
                                     <span className="icon-code text-white text-xl"></span>
                                 </div>
-                                CodingLab707
+                                CodingLab
                             </a>
                             <p className="text-[var(--text-muted)] max-w-sm mb-8 leading-relaxed">
                                 Professional Web Developer specializing in creating modern, responsive, and high-performance websites and web applications.
